@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{
+  margin:0;
+}
+
+#container{
+  width:1170px;
+  margin:0 auto;
+}
+footer{
+  width:1170px;
+  background-color: grey;
+  padding:10px 0px 10px 40%;
+  box-sizing: border-box;
+}
+header{
+  width:100%;
+  min-height: 50px;
+  background-color: #ddaa00;
+  box-sizing: border-box;
+  padding: 10px 0px 20px 30px;
+}
+#container>section>*{
+  box-sizing: border-box;
+  float: left;
+  min-height: 200px;
+}
+section{
+  width:100%;
+  display:inline-block;
+}
+#left{
+  background-color: red;
+  width:20%;
+}
+article {
+  background-color: #ddaaaa;
+  width:60%;
+}
+#right{
+  background-color: #66aaaa;
+  width:20%;
+}

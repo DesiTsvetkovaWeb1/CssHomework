@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+#container{
+	margin:auto;
+	width:1170px;
+}
+
+#container, #container > *{
+	margin:2px;
+}
+
+header, footer{
+	min-height: 50px;
+	width:100%;
+	background: darkblue;
+}
+#container>section{
+	min-height: 300px;
+	display: inline-block;
+	width: 100%;
+}
+#container>section>*{
+	min-height: 300px;
+	box-sizing: border-box;
+	float:left;
+}
+#container>section #left{
+	width:34%;
+	background-color: yellow;
+	margin-right: 1%;
+}
+#container>section #right{
+	width:65%;
+	background-color: green;
+}
